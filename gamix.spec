@@ -9,6 +9,8 @@ Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://www1.tcnet.ne.jp/fmurata/linux/down/%{name}-%{version}.tar.gz
 URL:		http://www1.tcnet.ne.jp/fmurata/linux/down/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	alsa-lib-devel >= 0.5.0
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gettext-devel
@@ -30,6 +32,9 @@ Mikser Audio w GTK dla ALSA.
 
 %build
 gettextize --copy --force
+aclocal
+autoconf
+automake -a -c
 %configure
 
 %{__make}
