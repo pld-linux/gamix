@@ -1,7 +1,7 @@
 Summary:	GTK Audio Mixer for ALSA
 Summary(pl):	Mikser audio w GTK dla ALSA
 Name:		gamix
-Version:	1.99.p3
+Version:	1.99.p13
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
