@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://www1.tcnet.ne.jp/fmurata/linux/down/%{name}-%{version}.tar.gz
+# Source0-md5:	86a6b2fb912816620f8b817030406d31
 URL:		http://www1.tcnet.ne.jp/fmurata/linux/down/
 BuildRequires:	autoconf
 BuildRequires:	automake
