@@ -4,7 +4,7 @@ Name:		gamix
 Version:	1.99.p13
 Release:	1
 License:	GPL
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	http://www1.tcnet.ne.jp/fmurata/linux/down/%{name}-%{version}.tar.gz
 URL:		http://www1.tcnet.ne.jp/fmurata/linux/down/
 BuildRequires:	autoconf
