@@ -32,7 +32,7 @@ Mikser Audio w GTK dla ALSA.
 gettextize --copy --force
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 
 %{__make}
