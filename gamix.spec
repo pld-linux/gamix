@@ -29,7 +29,7 @@ Mikser Audio w GTK dla ALSA.
 %setup -q
 
 %build
-gettextize --copy --force
+%{__gettextize}
 aclocal
 %{__autoconf}
 %{__automake}
