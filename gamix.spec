@@ -11,10 +11,9 @@ URL:		http://www1.tcnet.ne.jp/fmurata/linux/down/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	alsa-lib-devel >= 0.5.0
-BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gettext-devel
 BuildRequires:	glib-devel >= 1.2.0
-ExcludeArch:	sparc sparc64
+BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/X11/GNOME
