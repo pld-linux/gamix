@@ -5,8 +5,6 @@ Version:	1.99.p3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://www1.tcnet.ne.jp/fmurata/linux/down/%{name}-%{version}.tar.gz
 URL:		http://www1.tcnet.ne.jp/fmurata/linux/down/
 BuildRequires:	autoconf
