@@ -15,6 +15,7 @@ BuildRequires:	gettext-devel
 # GTK+ 1.x still needed by configure, but not used afterwards
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
+BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,6 +32,7 @@ Mikser Audio w GTK+ dla ALSA.
 
 %build
 %{__gettextize}
+%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
 %{__automake}
