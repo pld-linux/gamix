@@ -1,5 +1,5 @@
 Summary:	GTK+ Audio Mixer for ALSA
-Summary(pl.UTF-8):   Mikser audio w GTK+ dla ALSA
+Summary(pl.UTF-8):	Mikser audio w GTK+ dla ALSA
 Name:		gamix
 Version:	1.99.p14
 Release:	1
