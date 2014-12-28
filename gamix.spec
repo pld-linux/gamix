@@ -11,7 +11,7 @@ URL:		http://www1.tcnet.ne.jp/fmurata/linux/down/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	alsa-lib-devel >= 0.9.0
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 # GTK+ 1.x still needed by configure, but not used afterwards
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
